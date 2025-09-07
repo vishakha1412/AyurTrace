@@ -1,0 +1,7 @@
+ @import "tailwindcss";
+
+ @font-face {
+  font-family: 'AnandaNeptouch';
+  src: url('/fonts/AnandaNeptouch.ttf') format('truetype');
+}
+
