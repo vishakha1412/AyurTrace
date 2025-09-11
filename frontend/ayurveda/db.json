@@ -1,0 +1,26 @@
+ {
+  "lifecycle": {
+    "harvested": 12,
+    "testing": 4,
+    "rejected": 2,
+    "manufactured": 10
+  },
+  "prices": [
+    {
+      "name": "tulsi",
+      "price": 450
+    }
+  ],
+  "batches": [
+    {
+      "id": "A1023",
+      "species": "Ashwagandha",
+      "weight": 1.12,
+      "harvestDate": "Sep 5, 2023",
+      "zone": "A (Approved)",
+      "moisture": "9.2%",
+      "lab": "Haridwar Lab #3",
+      "status": "Passed"
+    }
+  ]
+}

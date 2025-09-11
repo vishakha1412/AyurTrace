@@ -1,0 +1,12 @@
+{
+  "greeting": "Namaste, Ram Kumar",
+  "battery": "Battery",
+  "gps": "GPS Locked",
+  "network": "Online",
+  "herbLifecycle": "Herb Lifecycle Overview",
+  "harvested": "Harvested",
+  "testingLab": "In Testing Lab",
+  "rejected": "Rejected",
+  "manufacturer": "Sent to Manufacturer",
+  "market": "Ready for Market"
+}

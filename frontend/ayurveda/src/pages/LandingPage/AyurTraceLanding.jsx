@@ -1,5 +1,6 @@
  import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
+import DashboardRouter from '../../router/DashboardRouter';
 
 const herbs = [
   { name: 'Ashwagandha', image: '/assets/herbs/ashwagandha.png' },
@@ -84,7 +85,7 @@ export default function AyurTraceLanding() {
         whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, delay: 1.5 }}  onClick={() => navigate('/dashboard')}
+        transition={{ duration: 1.2, delay: 1.5 }}  onClick={() => navigate( '/register')}
       >
         Explore Dashboard
       </motion.button>

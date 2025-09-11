@@ -1,25 +1,17 @@
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
- 
-import useFetch from "../../hooks/useFetch";
-import { fetchHarvestData } from "../../services/harvestAPI";
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';  // for real time map location
+import 'leaflet/dist/leaflet.css';  // real time map 
+ import useFetch from "../../hooks/useFetch";
+import { fetchHarvestData } from "../../services/harvestAPI"; // herbs data
 import { motion } from "framer-motion";
 import { useState } from 'react';
 
-
-
-
-
 export default function HarvestMap() {
+  
     const { data: harvestData, loading } = useFetch(fetchHarvestData);
     const [filter, setFilter] = useState("All");
     const [showDocs, setShowDocs] = useState(false);
-
-
-
-
-  const filteredData = harvestData.filter((point) =>
+   const filteredData = harvestData.filter((point) =>
   filter === "All" ? true : point.herb === filter
 );
 
@@ -27,7 +19,7 @@ export default function HarvestMap() {
 
   return (
     <>
-    <div className="p-6   rounded-xl shadow-md space-y-4 bg-[#fdf6e3]">
+    <div className="p-6   rounded-xl shadow-md space-y-4 bg-green-50">
       <h2 className="text-xl font-bold text-emerald-700">🌍 Harvest Map</h2>
 
       <select

@@ -20,8 +20,8 @@ const Navbar= () => {
         <div className="space-x-4 font-serif  hidden md:flex end-0">
           
            <NavLink to="/" className="hover:text-white-200 transition hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold">Home</NavLink> 
-           <NavLink to="/dashboard" className="hover:text-white-200 transition  hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold">DashBoard</NavLink> 
-          <NavLink to="/testimonials" className="hover:text-white-200 transition  hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold">Testimonials</NavLink>
+           <NavLink to="/dashboard/farmer" className="hover:text-white-200 transition  hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold">DashBoard</NavLink> 
+          <NavLink to="/register" className="hover:text-white-200 transition  hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold"> Register</NavLink>
           <NavLink to="/about" className="hover:text-white-200 transition  hover:bg-red-500  hover:px-2 hover:rounded-4xl font-bold">About</NavLink>
           
            
@@ -63,8 +63,8 @@ const Navbar= () => {
       {isOpen && (
         <div className=" flex flex-col  md:hidden px-4 pb-4 space-y-2 bg-green-700">
            <NavLink to="/" className="hover:text-indigo-200 transition">Home</NavLink> 
-          <NavLink to="/dashboard" className="block hover:text-indigo-200">Dashboard</NavLink>
-           <NavLink to="/testimonials" className="block hover:text-indigo-200">Testimonials</NavLink>
+          <NavLink to="/dashboard/farmer" className="block hover:text-indigo-200">Dashboard</NavLink>
+           <NavLink to="/register" className="block hover:text-indigo-200">Register</NavLink>
            <NavLink to="/about" className="block hover:text-indigo-200">About</NavLink>
            
         </div>

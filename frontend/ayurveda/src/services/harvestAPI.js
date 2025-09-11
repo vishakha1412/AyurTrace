@@ -8,7 +8,7 @@ export async function fetchHarvestData() {
 /*
 export async function fetchHarvestData() {
   try {
-    const response = await fetch("https://your-api.com/harvest"); // Replace with your real endpoint
+    const response = await fetch("https://your-api.com/harvest"); // Replace with your real endpoint ,use when backend connet with front end
     const data = await response.json();
 
     return data.map((item) => ({
