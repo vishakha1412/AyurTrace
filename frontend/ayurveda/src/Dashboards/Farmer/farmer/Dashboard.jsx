@@ -69,9 +69,17 @@ const dashboardModules = [
   },
 ];
 
+const myStyle = {
+  backgroundImage: "url('/assets/herbs/back.jpg')",
+  height: "full",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+};
+
+
 const Dashboard = () => {
   return (
-    <div className="p-6 max-w-7xl mx-auto">
+    <div className="p-6 max-w-7xl mx-auto h-full w-full "  style={myStyle}>
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}

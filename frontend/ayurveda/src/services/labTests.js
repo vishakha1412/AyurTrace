@@ -1,4 +1,5 @@
-export default  [
+export default 
+ [
   {
     batchId: 'A1023',
     species: 'Ashwagandha',

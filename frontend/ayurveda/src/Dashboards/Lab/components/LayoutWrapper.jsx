@@ -5,7 +5,7 @@ import Topbar from './Topbar';
 import { motion } from 'framer-motion';
 import { FaBars } from 'react-icons/fa';
 
-const LayoutWrapper = () => {
+const LayoutWrappers = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -56,7 +56,7 @@ const LayoutWrapper = () => {
         )}
 
         {/* Main Content */}
-        <main className="flex-1  sm:p-6 overflow-y-auto bg-green-100" >
+        <main className="flex-1  sm:p-6 overflow-y-auto">
           <Outlet />
         </main>
       </div>
@@ -64,4 +64,4 @@ const LayoutWrapper = () => {
   );
 };
 
-export default LayoutWrapper;
+export default LayoutWrappers;

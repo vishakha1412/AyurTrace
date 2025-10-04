@@ -100,7 +100,7 @@ const LabStatusDashboard = () => {
               key={lab.labName}
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.2, delay: index * 0.2 }}
               className="bg-gradient-to-br from-green-50 to-white rounded-xl shadow-lg p-6"
             >
               <h3 className="text-xl font-semibold text-green-900 mb-2 flex items-center gap-2">

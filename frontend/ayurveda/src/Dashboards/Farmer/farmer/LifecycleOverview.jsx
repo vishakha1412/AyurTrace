@@ -79,7 +79,7 @@ const LifecycleOverview = () => {
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.2 }}
         className="text-center mb-8"
       >
         <h2 className="text-4xl font-bold text-green-800">🌿 Lifecycle Overview</h2>
@@ -93,7 +93,7 @@ const LifecycleOverview = () => {
             key={stage.key}
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
             className={`rounded-xl shadow-md p-6 hover:shadow-lg transition ${stage.color}`}
           >
             <div className="flex items-center gap-3 mb-2">
